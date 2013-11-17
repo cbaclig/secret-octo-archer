@@ -4,9 +4,6 @@ module.exports = (grunt) ->
 
   grunt.initConfig
 
-    clean:
-      client: ['dist/']
-
     coffee:
       options:
         bare: true
@@ -17,14 +14,13 @@ module.exports = (grunt) ->
           {
             expand: true
             flatten: false
-            cwd: 'client'
+            cwd: 'src'
             src: '**/*.litcoffee'
-            dest: 'dist/client'
+            dest: 'lib'
             ext: '.js'
           }
         ]
 
     grunt.registerTask 'default', [
-      'clean'
       'coffee'
     ]
