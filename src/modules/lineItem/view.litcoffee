@@ -1,6 +1,6 @@
 Abstract model meant to be extended by other projects
 
-    define 'oa-line-item-view', [
+    define 'oaLineItemView', [
       'jquery'
       'underscore'
       'backbone'
