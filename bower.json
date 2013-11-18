@@ -1,12 +1,10 @@
 {
   "name": "secret-octo-archer",
-  "version": "0.0.1",
   "homepage": "https://github.com/maxbeatty/secret-octo-archer",
   "authors": [
     "Max Beatty <max@isocket.com>"
   ],
   "description": "Backbone base classes to be leveraged by other projects",
-  "main": "octo_archer.js",
   "keywords": [
     "Backbone"
   ],
