@@ -1,6 +1,6 @@
 A summary of the module that's easily required by other projects
 
-    define 'oaMission', [
+    define [
 
 Require "global" dependencies the child project is required to provide
 

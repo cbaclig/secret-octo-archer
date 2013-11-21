@@ -1,10 +1,14 @@
 Abstract model meant to be extended by other projects
 
-    define 'oaLineItemView', [
+    define [
       'jquery'
       'underscore'
       'backbone'
-    ], ($, _, Backbone) ->
+      './model'
+    ], ($, _, Backbone, LineItemModel) ->
       class LineItemView extends Backbone.View
         initialize: (options) ->
           console.log 'super line item view'
+
+          console.log 'LineItemModel using relative path:'
+          new LineItemModel

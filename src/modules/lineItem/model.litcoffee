@@ -1,6 +1,6 @@
 Abstract model meant to be extended by other projects
 
-    define 'oaLineItemModel', [
+    define [
       'jquery'
       'underscore'
       'backbone'
